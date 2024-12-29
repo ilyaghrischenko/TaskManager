@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManager.ApiGateway", "TaskManager.ApiGateway\TaskManager.ApiGateway.csproj", "{EF95FEC9-07B1-4442-9893-4FD2A187800F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiGateway.API", "ApiGateway.API\ApiGateway.API.csproj", "{EF95FEC9-07B1-4442-9893-4FD2A187800F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
