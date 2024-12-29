@@ -1,6 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManager.AccountService", "TaskManager.AccountService\TaskManager.AccountService.csproj", "{8D73EECC-54ED-4CA2-976E-D37A7EDAAEAD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountService.API", "AccountService.API\AccountService.API.csproj", "{8D73EECC-54ED-4CA2-976E-D37A7EDAAEAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountService.Domain", "AccountService.Domain\AccountService.Domain.csproj", "{1EED8657-FAAC-43DF-A45E-921D2DD24B19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountService.Data", "AccountService.Data\AccountService.Data.csproj", "{7095BB74-C792-41EF-91B1-E8D05993EAE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountService.Application", "AccountService.Application\AccountService.Application.csproj", "{4A919AC7-C068-4D88-9E0B-96A49E32AA0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountService.Contracts", "AccountService.Contracts\AccountService.Contracts.csproj", "{1026D3CE-93E7-47F9-A98C-BBFE32EBB8B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountService.Validation", "AccountService.Validation\AccountService.Validation.csproj", "{02314F1F-64EB-4A0E-96D9-93B577B829B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountService.DTO", "AccountService.DTO\AccountService.DTO.csproj", "{BC6448F8-0670-4558-8FE9-E5B989F0DB32}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +24,29 @@ Global
 		{8D73EECC-54ED-4CA2-976E-D37A7EDAAEAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D73EECC-54ED-4CA2-976E-D37A7EDAAEAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D73EECC-54ED-4CA2-976E-D37A7EDAAEAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EED8657-FAAC-43DF-A45E-921D2DD24B19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EED8657-FAAC-43DF-A45E-921D2DD24B19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EED8657-FAAC-43DF-A45E-921D2DD24B19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EED8657-FAAC-43DF-A45E-921D2DD24B19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7095BB74-C792-41EF-91B1-E8D05993EAE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7095BB74-C792-41EF-91B1-E8D05993EAE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7095BB74-C792-41EF-91B1-E8D05993EAE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7095BB74-C792-41EF-91B1-E8D05993EAE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A919AC7-C068-4D88-9E0B-96A49E32AA0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A919AC7-C068-4D88-9E0B-96A49E32AA0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A919AC7-C068-4D88-9E0B-96A49E32AA0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A919AC7-C068-4D88-9E0B-96A49E32AA0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1026D3CE-93E7-47F9-A98C-BBFE32EBB8B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1026D3CE-93E7-47F9-A98C-BBFE32EBB8B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1026D3CE-93E7-47F9-A98C-BBFE32EBB8B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1026D3CE-93E7-47F9-A98C-BBFE32EBB8B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02314F1F-64EB-4A0E-96D9-93B577B829B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02314F1F-64EB-4A0E-96D9-93B577B829B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02314F1F-64EB-4A0E-96D9-93B577B829B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02314F1F-64EB-4A0E-96D9-93B577B829B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC6448F8-0670-4558-8FE9-E5B989F0DB32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC6448F8-0670-4558-8FE9-E5B989F0DB32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC6448F8-0670-4558-8FE9-E5B989F0DB32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC6448F8-0670-4558-8FE9-E5B989F0DB32}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
