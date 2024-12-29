@@ -1,0 +1,12 @@
+D:\GitHub\TaskManager.Server\TaskManager.SharedService\SharedService.Domain\bin\Debug\net9.0\SharedService.Domain.deps.json
+D:\GitHub\TaskManager.Server\TaskManager.SharedService\SharedService.Domain\bin\Debug\net9.0\SharedService.Domain.dll
+D:\GitHub\TaskManager.Server\TaskManager.SharedService\SharedService.Domain\bin\Debug\net9.0\SharedService.Domain.pdb
+D:\GitHub\TaskManager.Server\TaskManager.SharedService\SharedService.Domain\obj\Debug\net9.0\SharedService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\TaskManager.Server\TaskManager.SharedService\SharedService.Domain\obj\Debug\net9.0\SharedService.Domain.AssemblyInfoInputs.cache
+D:\GitHub\TaskManager.Server\TaskManager.SharedService\SharedService.Domain\obj\Debug\net9.0\SharedService.Domain.AssemblyInfo.cs
+D:\GitHub\TaskManager.Server\TaskManager.SharedService\SharedService.Domain\obj\Debug\net9.0\SharedService.Domain.csproj.CoreCompileInputs.cache
+D:\GitHub\TaskManager.Server\TaskManager.SharedService\SharedService.Domain\obj\Debug\net9.0\SharedService.Domain.sourcelink.json
+D:\GitHub\TaskManager.Server\TaskManager.SharedService\SharedService.Domain\obj\Debug\net9.0\SharedService.Domain.dll
+D:\GitHub\TaskManager.Server\TaskManager.SharedService\SharedService.Domain\obj\Debug\net9.0\refint\SharedService.Domain.dll
+D:\GitHub\TaskManager.Server\TaskManager.SharedService\SharedService.Domain\obj\Debug\net9.0\SharedService.Domain.pdb
+D:\GitHub\TaskManager.Server\TaskManager.SharedService\SharedService.Domain\obj\Debug\net9.0\ref\SharedService.Domain.dll

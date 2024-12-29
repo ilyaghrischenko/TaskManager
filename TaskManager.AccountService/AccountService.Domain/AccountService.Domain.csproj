@@ -6,4 +6,10 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Reference Include="SharedService.Domain">
+        <HintPath>..\..\TaskManager.SharedService\SharedService.Domain\bin\Debug\net9.0\SharedService.Domain.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
 </Project>

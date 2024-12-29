@@ -8,17 +8,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a8e6bc5-3901-46ec-9789-18cbf7ac995a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ApiGateway.API/ocelot.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TaskManager.ApiGateway/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TaskManager.ApiGateway/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaskManager.ApiGateway.sln" beforeDir="false" afterPath="$PROJECT_DIR$/TaskManager.ApiGateway.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaskManager.ApiGateway/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGateway.API/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaskManager.ApiGateway/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGateway.API/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaskManager.ApiGateway/TaskManager.ApiGateway.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGateway.API/ApiGateway.API.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaskManager.ApiGateway/TaskManager.ApiGateway.http" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaskManager.ApiGateway/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGateway.API/appsettings.Development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaskManager.ApiGateway/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGateway.API/appsettings.json" afterDir="false" />
-    </list>
+    <list default="true" id="0a8e6bc5-3901-46ec-9789-18cbf7ac995a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,6 +36,9 @@
     "accountId": "f5f44a53-056a-48d4-a60b-fb6819021fde"
   }
 }]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/ApiGateway.API/obj/Debug/net9.0/.NETCoreApp,Version=v9.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -112,8 +105,17 @@
       <option name="presentableId" value="Default" />
       <updated>1735497814066</updated>
       <workItem from="1735497816611" duration="7000" />
-      <workItem from="1735501041215" duration="520000" />
+      <workItem from="1735501041215" duration="667000" />
     </task>
+    <task id="LOCAL-00001" summary="add Ocelot for API Gateway">
+      <option name="closed" value="true" />
+      <created>1735501600991</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1735501600991</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,5 +125,7 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="add Ocelot for API Gateway" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Ocelot for API Gateway" />
   </component>
 </project>
