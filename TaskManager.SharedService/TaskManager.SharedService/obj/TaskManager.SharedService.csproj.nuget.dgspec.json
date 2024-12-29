@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub\\TaskManager\\TaskManager.SharedService\\TaskManager.SharedService\\TaskManager.SharedService.csproj": {}
+    "D:\\GitHub\\TaskManager.Server\\TaskManager.SharedService\\TaskManager.SharedService\\TaskManager.SharedService.csproj": {}
   },
   "projects": {
-    "D:\\GitHub\\TaskManager\\TaskManager.SharedService\\TaskManager.SharedService\\TaskManager.SharedService.csproj": {
+    "D:\\GitHub\\TaskManager.Server\\TaskManager.SharedService\\TaskManager.SharedService\\TaskManager.SharedService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\TaskManager\\TaskManager.SharedService\\TaskManager.SharedService\\TaskManager.SharedService.csproj",
+        "projectUniqueName": "D:\\GitHub\\TaskManager.Server\\TaskManager.SharedService\\TaskManager.SharedService\\TaskManager.SharedService.csproj",
         "projectName": "TaskManager.SharedService",
-        "projectPath": "D:\\GitHub\\TaskManager\\TaskManager.SharedService\\TaskManager.SharedService\\TaskManager.SharedService.csproj",
+        "projectPath": "D:\\GitHub\\TaskManager.Server\\TaskManager.SharedService\\TaskManager.SharedService\\TaskManager.SharedService.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\TaskManager\\TaskManager.SharedService\\TaskManager.SharedService\\obj\\",
+        "outputPath": "D:\\GitHub\\TaskManager.Server\\TaskManager.SharedService\\TaskManager.SharedService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -47,12 +47,6 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "dependencies": {
-            "Microsoft.AspNetCore.OpenApi": {
-              "target": "Package",
-              "version": "[9.0.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -65,9 +59,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

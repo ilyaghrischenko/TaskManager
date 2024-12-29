@@ -1,6 +1,0 @@
-@TaskManager.SharedService_HostAddress = http://localhost:5268
-
-GET {{TaskManager.SharedService_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
