@@ -7,8 +7,16 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Reference Include="SharedService.Domain">
-        <HintPath>..\..\TaskManager.SharedService\SharedService.Domain\bin\Debug\net9.0\SharedService.Domain.dll</HintPath>
+      <Folder Include="Enums\" />
+      <Folder Include="Exceptions\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="Shared.Data">
+        <HintPath>..\..\TaskManager.SharedService\Shared.Data\bin\Debug\net9.0\Shared.Data.dll</HintPath>
+      </Reference>
+      <Reference Include="Shared.Domain">
+        <HintPath>..\..\TaskManager.SharedService\Shared.Domain\bin\Debug\net9.0\Shared.Domain.dll</HintPath>
       </Reference>
     </ItemGroup>
 

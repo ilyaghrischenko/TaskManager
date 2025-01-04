@@ -1,4 +1,4 @@
-﻿using SharedService.Domain.Entities;
+﻿using Shared.Domain.Entities;
 
 namespace AccountService.Domain.Entities;
 

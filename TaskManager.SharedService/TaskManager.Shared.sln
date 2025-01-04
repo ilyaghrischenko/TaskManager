@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared.Domain", "Shared.Domain\Shared.Domain.csproj", "{B96BF924-6142-40B5-ACA2-5EE316FA55A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared.Data", "Shared.Data\Shared.Data.csproj", "{8FD6959B-F7F0-4966-BFBD-BA0EF8BA4DCB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B96BF924-6142-40B5-ACA2-5EE316FA55A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B96BF924-6142-40B5-ACA2-5EE316FA55A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B96BF924-6142-40B5-ACA2-5EE316FA55A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B96BF924-6142-40B5-ACA2-5EE316FA55A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FD6959B-F7F0-4966-BFBD-BA0EF8BA4DCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FD6959B-F7F0-4966-BFBD-BA0EF8BA4DCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FD6959B-F7F0-4966-BFBD-BA0EF8BA4DCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FD6959B-F7F0-4966-BFBD-BA0EF8BA4DCB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

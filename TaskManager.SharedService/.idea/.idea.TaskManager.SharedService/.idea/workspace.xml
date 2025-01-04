@@ -5,37 +5,193 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1cb831ba-bbc5-4c9e-bdf0-dcaed5f22684" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Domain/Entities/User.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.API/TaskManager.AccountService.http" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.API/Extensions/ServiceCollectionsExtension.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Data/Repositories/UserRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Data/UsersContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shared.Contracts/Repositories/IRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shared.Contracts/Services/Controllers/IControllerService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shared.Contracts/obj/Debug/net9.0/SharedService.Contracts.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shared.Contracts/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shared.Contracts/obj/rider.project.restore.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shared.Domain/obj/Debug/net9.0/SharedService.Domain.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shared.Domain/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shared.Domain/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.API/AccountService.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.API/AccountService.API.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.API/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.API/obj/AccountService.API.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.API/obj/AccountService.API.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.API/obj/AccountService.API.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.API/obj/AccountService.API.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.API/obj/Debug/net9.0/AccountService.API.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.API/obj/Debug/net9.0/AccountService.API.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.API/obj/Debug/net9.0/AccountService.API.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.API/obj/Debug/net9.0/AccountService.API.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.API/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.API/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.API/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.API/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.API/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.API/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.API/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.API/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Application/Class1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.API/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.API/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Application/AccountService.Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Application/AccountService.Application.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Application/obj/AccountService.Application.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Application/obj/AccountService.Application.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Application/obj/AccountService.Application.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Application/obj/AccountService.Application.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Application/obj/Debug/net9.0/AccountService.Application.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Application/obj/Debug/net9.0/AccountService.Application.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Application/obj/Debug/net9.0/AccountService.Application.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Application/obj/Debug/net9.0/AccountService.Application.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Contracts/Class1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Contracts/obj/Debug/net9.0/AccountService.Contracts.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Contracts/obj/Debug/net9.0/AccountService.Contracts.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Contracts/obj/Debug/net9.0/AccountService.Contracts.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Contracts/obj/Debug/net9.0/AccountService.Contracts.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.DTO/Class1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Application/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Application/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Application/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Application/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Application/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Application/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Application/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Application/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Application/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Application/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Contracts/AccountService.Contracts.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Shared.Contracts/Shared.Contracts.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Contracts/obj/AccountService.Contracts.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Contracts/obj/AccountService.Contracts.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Contracts/obj/AccountService.Contracts.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Contracts/obj/Debug/net9.0/.NETCoreApp,Version=v9.0.AssemblyAttributes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Shared.Contracts/obj/Debug/net9.0/.NETCoreApp,Version=v9.0.AssemblyAttributes.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Contracts/obj/Debug/net9.0/AccountService.Contracts.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Contracts/obj/Debug/net9.0/AccountService.Contracts.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Contracts/obj/Debug/net9.0/AccountService.Contracts.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Contracts/obj/Debug/net9.0/AccountService.Contracts.GlobalUsings.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Contracts/obj/Debug/net9.0/AccountService.Contracts.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Contracts/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Shared.Contracts/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Contracts/obj/project.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Contracts/obj/project.packagespec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Contracts/obj/rider.project.model.nuget.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Contracts/obj/rider.project.restore.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.DTO/AccountService.DTO.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.DTO/AccountService.DTO.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.DTO/obj/AccountService.DTO.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.DTO/obj/AccountService.DTO.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.DTO/obj/AccountService.DTO.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.DTO/obj/AccountService.DTO.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.DTO/obj/Debug/net9.0/AccountService.DTO.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.DTO/obj/Debug/net9.0/AccountService.DTO.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.DTO/obj/Debug/net9.0/AccountService.DTO.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.DTO/obj/Debug/net9.0/AccountService.DTO.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Data/Class1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.DTO/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.DTO/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.DTO/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.DTO/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.DTO/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.DTO/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.DTO/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.DTO/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.DTO/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.DTO/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Data/AccountService.Data.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Data/AccountService.Data.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Data/obj/AccountService.Data.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Data/obj/AccountService.Data.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Data/obj/AccountService.Data.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Data/obj/AccountService.Data.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Data/obj/AccountService.Data.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Data/obj/AccountService.Data.csproj.nuget.g.targets" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Data/obj/Debug/net9.0/AccountService.Data.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Data/obj/Debug/net9.0/AccountService.Data.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Data/obj/Debug/net9.0/AccountService.Data.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Data/obj/Debug/net9.0/AccountService.Data.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Domain/Class1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Data/obj/Debug/net9.0/AccountService.Data.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Data/obj/Debug/net9.0/AccountService.Data.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Data/obj/Debug/net9.0/AccountService.Data.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Data/obj/Debug/net9.0/AccountService.Data.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Data/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Data/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Data/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Data/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Data/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Data/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Data/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Data/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Data/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Data/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Domain/AccountService.Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Domain/AccountService.Domain.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Domain/Entities/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Domain/Entities/User.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Domain/obj/AccountService.Domain.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Domain/obj/AccountService.Domain.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Domain/obj/AccountService.Domain.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Domain/obj/AccountService.Domain.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Domain/obj/Debug/net9.0/AccountService.Domain.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Domain/obj/Debug/net9.0/AccountService.Domain.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Domain/obj/Debug/net9.0/AccountService.Domain.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Domain/obj/Debug/net9.0/AccountService.Domain.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Validation/Class1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Domain/obj/Debug/net9.0/AccountService.Domain.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Domain/obj/Debug/net9.0/AccountService.Domain.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Domain/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Domain/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Domain/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Domain/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Domain/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Domain/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Domain/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Domain/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Domain/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Domain/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Validation/obj/AccountService.Validation.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Validation/obj/AccountService.Validation.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Validation/obj/AccountService.Validation.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Validation/obj/AccountService.Validation.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Validation/obj/Debug/net9.0/AccountService.Validation.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Validation/obj/Debug/net9.0/AccountService.Validation.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Validation/obj/Debug/net9.0/AccountService.Validation.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Validation/obj/Debug/net9.0/AccountService.Validation.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TaskManager.ApiGateway/.idea/.idea.TaskManager.ApiGateway/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManager.ApiGateway/.idea/.idea.TaskManager.ApiGateway/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedService.Contracts/obj/Debug/net9.0/SharedService.Contracts.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SharedService.Contracts/obj/Debug/net9.0/SharedService.Contracts.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedService.Contracts/obj/Debug/net9.0/SharedService.Contracts.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SharedService.Contracts/obj/Debug/net9.0/SharedService.Contracts.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedService.Data/obj/Debug/net9.0/SharedService.Data.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SharedService.Data/obj/Debug/net9.0/SharedService.Data.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedService.Data/obj/Debug/net9.0/SharedService.Data.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SharedService.Data/obj/Debug/net9.0/SharedService.Data.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedService.Domain/obj/Debug/net9.0/SharedService.Domain.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SharedService.Domain/obj/Debug/net9.0/SharedService.Domain.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedService.Domain/obj/Debug/net9.0/SharedService.Domain.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SharedService.Domain/obj/Debug/net9.0/SharedService.Domain.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedService.Domain/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/SharedService.Domain/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Validation/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Validation/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Validation/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Validation/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Validation/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Validation/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Validation/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Validation/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Validation/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManager.AccountService/AccountService.Validation/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/TaskManager.AccountService.sln" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManager.AccountService/TaskManager.AccountService.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManager.AccountService/TaskManager.AccountService.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManager.AccountService/TaskManager.AccountService.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TaskManager.SharedService/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TaskManager.SharedService/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TaskManager.SharedService/.idea/projectSettingsUpdater.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TaskManager.SharedService/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TaskManager.SharedService/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Contracts/Repositories/IRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Contracts/Services/Controllers/IControllerService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Contracts/SharedService.Contracts.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Shared.Domain/Shared.Domain.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Contracts/bin/Debug/net9.0/SharedService.Contracts.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Shared.Contracts/bin/Debug/net9.0/SharedService.Contracts.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Contracts/bin/Debug/net9.0/SharedService.Contracts.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Shared.Contracts/bin/Debug/net9.0/Shared.Contracts.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Contracts/bin/Debug/net9.0/SharedService.Contracts.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Shared.Contracts/bin/Debug/net9.0/Shared.Contracts.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Contracts/obj/Debug/net9.0/.NETCoreApp,Version=v9.0.AssemblyAttributes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Shared.Domain/obj/Debug/net9.0/.NETCoreApp,Version=v9.0.AssemblyAttributes.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Contracts/obj/Debug/net9.0/SharedService.Contracts.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Shared.Contracts/obj/Debug/net9.0/SharedService.Contracts.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Contracts/obj/Debug/net9.0/SharedService.Contracts.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Contracts/obj/Debug/net9.0/SharedService.Contracts.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Shared.Contracts/obj/Debug/net9.0/SharedService.Contracts.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Contracts/obj/Debug/net9.0/SharedService.Contracts.GlobalUsings.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Shared.Contracts/obj/Debug/net9.0/SharedService.Contracts.GlobalUsings.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Contracts/obj/Debug/net9.0/SharedService.Contracts.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Shared.Contracts/obj/Debug/net9.0/SharedService.Contracts.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Contracts/obj/Debug/net9.0/SharedService.Contracts.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Shared.Contracts/obj/Debug/net9.0/SharedService.Contracts.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Contracts/obj/Debug/net9.0/SharedService.Contracts.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Shared.Contracts/obj/Debug/net9.0/SharedService.Contracts.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Contracts/obj/Debug/net9.0/SharedService.Contracts.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Shared.Contracts/obj/Debug/net9.0/SharedService.Contracts.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Contracts/obj/Debug/net9.0/SharedService.Contracts.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Shared.Contracts/obj/Debug/net9.0/SharedService.Contracts.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Contracts/obj/Debug/net9.0/SharedService.Contracts.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Shared.Contracts/obj/Debug/net9.0/SharedService.Contracts.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Contracts/obj/Debug/net9.0/ref/SharedService.Contracts.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Shared.Contracts/obj/Debug/net9.0/ref/SharedService.Contracts.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Contracts/obj/Debug/net9.0/refint/SharedService.Contracts.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Shared.Contracts/obj/Debug/net9.0/refint/SharedService.Contracts.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Contracts/obj/SharedService.Contracts.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Shared.Contracts/obj/SharedService.Contracts.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Contracts/obj/SharedService.Contracts.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Shared.Contracts/obj/SharedService.Contracts.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Contracts/obj/SharedService.Contracts.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Shared.Contracts/obj/SharedService.Contracts.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Contracts/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Contracts/obj/project.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Contracts/obj/project.packagespec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Contracts/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Shared.Contracts/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Contracts/obj/rider.project.restore.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Data/BaseDbContext.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Data/Repositories/BaseRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Data/SharedService.Data.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Data/bin/Debug/net9.0/SharedService.Data.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Data/bin/Debug/net9.0/SharedService.Data.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Data/bin/Debug/net9.0/SharedService.Data.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Data/obj/Debug/net9.0/.NETCoreApp,Version=v9.0.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Data/obj/Debug/net9.0/SharedService.Data.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Data/obj/Debug/net9.0/SharedService.Data.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Data/obj/Debug/net9.0/SharedService.Data.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Data/obj/Debug/net9.0/SharedService.Data.GlobalUsings.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Data/obj/Debug/net9.0/SharedService.Data.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Data/obj/Debug/net9.0/SharedService.Data.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Data/obj/Debug/net9.0/SharedService.Data.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Data/obj/Debug/net9.0/SharedService.Data.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Data/obj/Debug/net9.0/SharedService.Data.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Data/obj/Debug/net9.0/SharedService.Data.sourcelink.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Data/obj/Debug/net9.0/ref/SharedService.Data.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Data/obj/Debug/net9.0/refint/SharedService.Data.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Data/obj/SharedService.Data.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Data/obj/SharedService.Data.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Data/obj/SharedService.Data.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Data/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Shared.Domain/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Data/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Shared.Contracts/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Data/obj/project.packagespec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Data/obj/rider.project.model.nuget.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Data/obj/rider.project.restore.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Domain/Entities/BaseEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Shared.Domain/Entities/BaseEntity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Domain/SharedService.Domain.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Domain/bin/Debug/net9.0/SharedService.Domain.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Shared.Domain/bin/Debug/net9.0/SharedService.Domain.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Domain/bin/Debug/net9.0/SharedService.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Shared.Domain/bin/Debug/net9.0/Shared.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Domain/bin/Debug/net9.0/SharedService.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Shared.Domain/bin/Debug/net9.0/Shared.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Domain/obj/Debug/net9.0/.NETCoreApp,Version=v9.0.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Domain/obj/Debug/net9.0/SharedService.Domain.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Shared.Domain/obj/Debug/net9.0/SharedService.Domain.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Domain/obj/Debug/net9.0/SharedService.Domain.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Domain/obj/Debug/net9.0/SharedService.Domain.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Shared.Domain/obj/Debug/net9.0/SharedService.Domain.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Domain/obj/Debug/net9.0/SharedService.Domain.GlobalUsings.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Shared.Domain/obj/Debug/net9.0/SharedService.Domain.GlobalUsings.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Domain/obj/Debug/net9.0/SharedService.Domain.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Shared.Domain/obj/Debug/net9.0/SharedService.Domain.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Domain/obj/Debug/net9.0/SharedService.Domain.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Shared.Domain/obj/Debug/net9.0/SharedService.Domain.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Domain/obj/Debug/net9.0/SharedService.Domain.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Shared.Domain/obj/Debug/net9.0/SharedService.Domain.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Domain/obj/Debug/net9.0/SharedService.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Shared.Domain/obj/Debug/net9.0/SharedService.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Domain/obj/Debug/net9.0/SharedService.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Shared.Domain/obj/Debug/net9.0/SharedService.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Domain/obj/Debug/net9.0/SharedService.Domain.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Shared.Domain/obj/Debug/net9.0/SharedService.Domain.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Domain/obj/Debug/net9.0/TaskManager.SharedService.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Shared.Domain/obj/Debug/net9.0/TaskManager.SharedService.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Domain/obj/Debug/net9.0/TaskManager.SharedService.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Shared.Domain/obj/Debug/net9.0/TaskManager.SharedService.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Domain/obj/Debug/net9.0/TaskManager.SharedService.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Shared.Domain/obj/Debug/net9.0/TaskManager.SharedService.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Domain/obj/Debug/net9.0/TaskManager.SharedService.GlobalUsings.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Shared.Domain/obj/Debug/net9.0/TaskManager.SharedService.GlobalUsings.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Domain/obj/Debug/net9.0/TaskManager.SharedService.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Shared.Domain/obj/Debug/net9.0/TaskManager.SharedService.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Domain/obj/Debug/net9.0/ref/SharedService.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Shared.Domain/obj/Debug/net9.0/ref/SharedService.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Domain/obj/Debug/net9.0/refint/SharedService.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Shared.Domain/obj/Debug/net9.0/refint/SharedService.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Domain/obj/SharedService.Domain.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Shared.Domain/obj/SharedService.Domain.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Domain/obj/SharedService.Domain.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Shared.Domain/obj/SharedService.Domain.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Domain/obj/SharedService.Domain.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Shared.Domain/obj/SharedService.Domain.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Domain/obj/TaskManager.SharedService.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Shared.Domain/obj/TaskManager.SharedService.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Domain/obj/TaskManager.SharedService.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Shared.Domain/obj/TaskManager.SharedService.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Domain/obj/TaskManager.SharedService.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Shared.Domain/obj/TaskManager.SharedService.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Domain/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Domain/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Shared.Domain/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Domain/obj/project.packagespec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Domain/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Shared.Domain/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedService.Domain/obj/rider.project.restore.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskManager.SharedService.sln" beforeDir="false" afterPath="$PROJECT_DIR$/TaskManager.Shared.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,19 +225,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "develop",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -92,6 +248,8 @@
       <updated>1735499218330</updated>
       <workItem from="1735499218334" duration="639000" />
       <workItem from="1735501930744" duration="34000" />
+      <workItem from="1735502247965" duration="390000" />
+      <workItem from="1735835195592" duration="1034000" />
     </task>
     <task id="LOCAL-00001" summary="Change SharedService from web API to Class Library">
       <option name="closed" value="true" />
@@ -101,7 +259,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735499277477</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit">
+      <option name="closed" value="true" />
+      <created>1735502523694</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1735502523694</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,6 +278,7 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Change SharedService from web API to Class Library" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change SharedService from web API to Class Library" />
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
 </project>

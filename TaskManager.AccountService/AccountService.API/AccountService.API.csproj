@@ -10,4 +10,19 @@
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.0"/>
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Controllers\" />
+      <Folder Include="Middlewares\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\AccountService.Data\AccountService.Data.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="Shared.Domain">
+        <HintPath>..\..\TaskManager.SharedService\Shared.Domain\bin\Debug\net9.0\Shared.Domain.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
 </Project>

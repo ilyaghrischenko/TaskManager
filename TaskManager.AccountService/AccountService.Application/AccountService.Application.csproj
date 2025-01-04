@@ -6,4 +6,14 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Folder Include="DTO\Requests\" />
+      <Folder Include="Exceptions\" />
+      <Folder Include="Interfaces\Controllers\" />
+      <Folder Include="Interfaces\Entities\" />
+      <Folder Include="Services\Controllers\" />
+      <Folder Include="Services\Entities\" />
+      <Folder Include="Validation\" />
+    </ItemGroup>
+
 </Project>
